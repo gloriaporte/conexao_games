@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Ropa+Sans&display=swap');
+
+body {
+    font-family: "Ropa Sans", sans-serif;
+}
+.logo {
+    width: 200px;
+    height: auto;
+}
+.navbar {
+    height: 70px;
+}
+.navbar .navbar-nav .nav-item .nav-link {
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #000;
+}
+#myModal {
+    display: none;
+  }
+#myModal h5 {
+    font-size: 24px;
+}  
+#myModal p {
+    font-size: 22px;
+}  
+  #contact-form input {
+      width: 400px;
+      font-size: 17px;
+  }
+#myModal button {
+    font-size: 18px;
+    text-transform: uppercase;
+}  
+#myModal .btn-primary {
+    background-color: #28a745 !important;
+}
+#myModal .btn-primary:hover {
+    background-color: #1b5a2a !important;
+}
+
+.inicio {
+    background-color: #454545;
+}
+.carousel-caption {
+    left: 70% !important;
+    bottom: 250px !important;
+}
+.carousel-caption {
+    width: 250px;
+}
+.carousel-caption h2 {
+    font-size: 45px;
+    text-transform: uppercase;
+}
+.carousel-caption p {
+    font-size: 40px;
+}
+.carousel-caption a {
+    font-size: 25px;
+    text-transform: uppercase;
+}
+.section-title {
+    position: relative;
+    -js-display: flex;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: row wrap;
+     -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    width: 100%;
+}
+
+@media (max-width: 550px){
+    .section-title{
+        font-size: 25px;
+    }
+}
+
+.section-title b {
+    display: block;
+    -ms-flex: 1;
+    flex: 1;
+    height: 2px;
+    opacity: .1;
+    background-color: white;
+}
+.section-title .color {
+    background-color: black;
+}
+.section-title span {
+    margin: 0 15px;
+}
+#card-cat .card-item {
+    height: unset;
+}
+#card-cat .card-item img {
+    position: absolute;
+    z-index: -1;
+}
+#card-cat .card-item .categoria {
+    width: 100%;
+    opacity: 0.5;
+    background-color: #fff;
+    color: #000;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 0;
+    position: absolute;
+    top: 50%;
+}
+.btn-success {
+    font-size: 24px;
+    text-transform: uppercase;
+}
+.fa-shopping-cart {
+    font-size: 35px;
+}
+/*  CONTATO   */
+#contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#sobre {
+    text-align: justify;
+}
+#sobre h2 {
+    font-size: 35px;
+}
+#sobre h3 {
+    font-size: 25px;
+}
+#sobre p {
+    width: 50%;
+}
+@media (max-width: 600px){
+    #sobre p{
+        width: 100%;
+    }
+}
+#equipe .social-link {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #666;
+    border-radius: 50%;
+    transition: all 0.3s;
+    font-size: 0.9rem;
+}
+
+#contato form {
+    width: 50%;
+}
+/* Mini Banner */
+.course-wrap {
+    width: 100%;
+    height: 300px;
+    background-image: url(../resources/page-banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+@media (max-width: 1199.98px) {
+    .course-wrap {
+        background-position: center center !important;
+    }
+}
+
+.course-wrap .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: '';
+    opacity: .6;
+    background: #000000;
+}
+.course-wrap.hero-wrap-2 {
+    height: 200px;
+}
+.course-wrap.hero-wrap-2 .overlay {
+    opacity: .3;
+}
+.course-wrap.hero-wrap-2 .slider-text {
+    height: 200px;
+}
+
+h1.banner-title {
+    font-size: 40px;
+    color: #fff;
+    line-height: 1.5;
+    font-weight: 700;
+    font-family: "Poppins", Arial, sans-serif;
+    position: relative;
+    top: 25vh;
+    word-wrap: break-word;
+    text-transform: uppercase;
+}
+
+/*Bandeirinhas*/
+
+.flag-item {
+    width: 50px;
+    height: 70px;
+    box-sizing: border-box;
+    padding: 5px;
+    position: absolute;
+    color: white;
+    font-size: 14px;
+    letter-spacing: 0.2em;
+    text-align: center;
+    text-transform: uppercase;
+    clip-path: polygon(0 0, 100% 0%, 100% 60%, 50% 100%, 0 60%);
+    top: 0;
+    right: 10px;
+    font-weight: 600;
+}
+
+.list-group.list-group-flush li{
+    font-size: 20px;
+}
+.list-group.list-group-flush li strong{
+    font-size: 1.8rem;
+    color: #d00017;
+}
+
+.item-buy{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    margin-left: -90px;
+    text-align: center;
+    width: 255px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+.item-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.6;
+    background: #000000;
+    height: 100%;
+}
+
+.card-header{
+    position: relative;
+    contain: content;
+    height: 200px;
+}
+
+.card-item{
+    height: 400px;
+}
+div.card-body{
+    height: 20px;
+}
+
+.list-group{
+    height: 130px;
+}
+
+.video-btn {
+    font-size: 20px;
+    text-transform: uppercase;
+}
