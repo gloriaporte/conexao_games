@@ -7,6 +7,8 @@ Este é um projeto da Digital House, do curso em Java, em dupla com a Lidiane Ma
   2. Uma galeria com 6 imagens e um video.
   3. Uma página de contato com formulário de contato e informações sobre a equipe
   
+  Acesse o projeto em https://gloriaporte.github.io/glorialidiane-conexao-games/
+  
   _______________________________
   
   This is a Digital House - Java class' homework. Lidiane Mara and me created a games store, following the teachers minimum requirements:
@@ -15,3 +17,5 @@ Este é um projeto da Digital House, do curso em Java, em dupla com a Lidiane Ma
       1. An index page, with a carrossel, modal and another one component.
       2. A gallery page with 6 images and a video.
       3. A contact page with information about the couple/team and a contact form.
+
+Acess the project in https://gloriaporte.github.io/glorialidiane-conexao-games/
