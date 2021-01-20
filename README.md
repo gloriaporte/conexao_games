@@ -11,9 +11,9 @@ Este é um projeto da Digital House, do curso em Fullstack Web com Java, em dupl
  * Utilizar HTML5.
  * Utilizar CSS3.
  * Criar 3 páginas:
-  1. Index, com carrossel, modal e outro componente.
-  2. Uma galeria com 6 imagens e um video.
-  3. Uma página de contato com formulário de contato e informações sobre a equipe
+    1. Index, com carrossel, modal e outro componente.
+    2. Uma galeria com 6 imagens e um video.
+    3. Uma página de contato com formulário de contato e informações sobre a equipe
   
   [Acesse o projeto.](https://gloriaporte.github.io/glorialidiane-conexao-games/)
   
