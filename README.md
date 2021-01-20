@@ -1,9 +1,9 @@
-# Conexão Games
+# :video_game: Conexão Games
 
 * [Português](https://github.com/gloriaporte/glorialidiane-conexao-games/#sobre)
 * [English](https://github.com/gloriaporte/glorialidiane-conexao-games/#about)
 
-## Sobre
+## :information_source: Sobre
 
 Este é um projeto da Digital House, do curso em Fullstack Web com Java, em dupla com a [Lidiane Mara](https://github.com/LidianeMara/conexao-games). O intuito foi uma página de loja de jogos, seguindo os requisitos pré-estabelecidos dos professores:
 
@@ -17,7 +17,7 @@ Este é um projeto da Digital House, do curso em Fullstack Web com Java, em dupl
   
   _______________________________
   
-  ## About
+  ## :information_source: About
   
   This is a Digital House - Fullstack Web with Java class' homework. [Lidiane Mara](https://github.com/LidianeMara/conexao-games) and me created a games store, following the teachers minimum requirements:
    * Use bootstrap framework.
